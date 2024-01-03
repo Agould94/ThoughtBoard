@@ -14,6 +14,7 @@
 		550580BE2B44E3B200B68DA7 /* ThoughtBoardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550580BD2B44E3B200B68DA7 /* ThoughtBoardTests.swift */; };
 		550580C82B44E3B200B68DA7 /* ThoughtBoardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550580C72B44E3B200B68DA7 /* ThoughtBoardUITests.swift */; };
 		550580CA2B44E3B200B68DA7 /* ThoughtBoardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550580C92B44E3B200B68DA7 /* ThoughtBoardUITestsLaunchTests.swift */; };
+		550580D72B44E9D400B68DA7 /* SurveyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550580D62B44E9D400B68DA7 /* SurveyView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		550580C32B44E3B200B68DA7 /* ThoughtBoardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThoughtBoardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		550580C72B44E3B200B68DA7 /* ThoughtBoardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThoughtBoardUITests.swift; sourceTree = "<group>"; };
 		550580C92B44E3B200B68DA7 /* ThoughtBoardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThoughtBoardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		550580D62B44E9D400B68DA7 /* SurveyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				550580AF2B44E3B200B68DA7 /* Assets.xcassets */,
 				550580B12B44E3B200B68DA7 /* ThoughtBoard.entitlements */,
 				550580B22B44E3B200B68DA7 /* Preview Content */,
+				550580D62B44E9D400B68DA7 /* SurveyView.swift */,
 			);
 			path = ThoughtBoard;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			files = (
 				550580AE2B44E3B000B68DA7 /* ContentView.swift in Sources */,
 				550580AC2B44E3B000B68DA7 /* ThoughtBoardApp.swift in Sources */,
+				550580D72B44E9D400B68DA7 /* SurveyView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
