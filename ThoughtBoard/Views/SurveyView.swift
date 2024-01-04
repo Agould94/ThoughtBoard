@@ -11,6 +11,7 @@ import SwiftUI
 struct SurveyView: View {
     @State private var answerOne: String = ""
     @State private var answerTwo: String = ""
+    @StateObject var viewModel = SurveyViewModel()
 
     var body: some View {
         VStack {
@@ -33,4 +34,6 @@ struct SurveyView: View {
         .animation(.easeInOut, value: true)
     }
 }
+
+
 

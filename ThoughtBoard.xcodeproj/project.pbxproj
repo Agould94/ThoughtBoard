@@ -15,6 +15,8 @@
 		550580C82B44E3B200B68DA7 /* ThoughtBoardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550580C72B44E3B200B68DA7 /* ThoughtBoardUITests.swift */; };
 		550580CA2B44E3B200B68DA7 /* ThoughtBoardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550580C92B44E3B200B68DA7 /* ThoughtBoardUITestsLaunchTests.swift */; };
 		550580D72B44E9D400B68DA7 /* SurveyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550580D62B44E9D400B68DA7 /* SurveyView.swift */; };
+		550580DB2B46870300B68DA7 /* SurveyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550580DA2B46870300B68DA7 /* SurveyViewModel.swift */; };
+		550580DE2B46899500B68DA7 /* SurveyQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550580DD2B46899500B68DA7 /* SurveyQuestion.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		550580C72B44E3B200B68DA7 /* ThoughtBoardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThoughtBoardUITests.swift; sourceTree = "<group>"; };
 		550580C92B44E3B200B68DA7 /* ThoughtBoardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThoughtBoardUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		550580D62B44E9D400B68DA7 /* SurveyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyView.swift; sourceTree = "<group>"; };
+		550580DA2B46870300B68DA7 /* SurveyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyViewModel.swift; sourceTree = "<group>"; };
+		550580DD2B46899500B68DA7 /* SurveyQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyQuestion.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +102,12 @@
 			isa = PBXGroup;
 			children = (
 				550580AB2B44E3B000B68DA7 /* ThoughtBoardApp.swift */,
-				550580AD2B44E3B000B68DA7 /* ContentView.swift */,
+				550580DC2B46878100B68DA7 /* Views */,
+				550580D92B4686D200B68DA7 /* ViewModels */,
+				550580D82B4686B500B68DA7 /* Models */,
 				550580AF2B44E3B200B68DA7 /* Assets.xcassets */,
 				550580B12B44E3B200B68DA7 /* ThoughtBoard.entitlements */,
 				550580B22B44E3B200B68DA7 /* Preview Content */,
-				550580D62B44E9D400B68DA7 /* SurveyView.swift */,
 			);
 			path = ThoughtBoard;
 			sourceTree = "<group>";
@@ -130,6 +135,31 @@
 				550580C92B44E3B200B68DA7 /* ThoughtBoardUITestsLaunchTests.swift */,
 			);
 			path = ThoughtBoardUITests;
+			sourceTree = "<group>";
+		};
+		550580D82B4686B500B68DA7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				550580DD2B46899500B68DA7 /* SurveyQuestion.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		550580D92B4686D200B68DA7 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				550580DA2B46870300B68DA7 /* SurveyViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		550580DC2B46878100B68DA7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				550580D62B44E9D400B68DA7 /* SurveyView.swift */,
+				550580AD2B44E3B000B68DA7 /* ContentView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,6 +294,8 @@
 			files = (
 				550580AE2B44E3B000B68DA7 /* ContentView.swift in Sources */,
 				550580AC2B44E3B000B68DA7 /* ThoughtBoardApp.swift in Sources */,
+				550580DE2B46899500B68DA7 /* SurveyQuestion.swift in Sources */,
+				550580DB2B46870300B68DA7 /* SurveyViewModel.swift in Sources */,
 				550580D72B44E9D400B68DA7 /* SurveyView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
