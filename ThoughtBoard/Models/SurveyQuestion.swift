@@ -9,5 +9,6 @@ import Foundation
 
 struct SurveyQuestion{
     var question: String
-    var answer: String?
+    var answer: String
+    var options: [String]
 }

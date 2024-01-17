@@ -9,7 +9,8 @@ import Foundation
 
 class SurveyViewModel: ObservableObject {
     @Published var questions: [SurveyQuestion] = [
-        SurveyQuestion(question: "How are you feeling today?"),
+        SurveyQuestion(question: "I am having a", answer:"", options:["Positive Thought", "Negative Thought"]),
+        SurveyQuestion(question: "About", answer:"", options:[]),
         // Add more questions as needed
     ]
     
