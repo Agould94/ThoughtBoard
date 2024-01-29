@@ -26,7 +26,9 @@ class SurveyViewModel: ObservableObject {
     init() {
         questions = [SurveyQuestion(question: "I am having a", answer:"", options:["Positive Thought", "Negative Thought"], checkableItems: []),
                      SurveyQuestion(question: "About", answer:"", options:[], checkableItems: []),
-                     SurveyQuestion(question: "This thought makes me want to", answer:"", options:[], checkableItems: SurveyViewModel.getCheckableItems())
+                     SurveyQuestion(question: "This thought makes me want to", answer:"", options:[], checkableItems:SurveyViewModel.getCheckableItems()),
+                     SurveyQuestion(question: "Because of this thought I", answer:"", options:["Am","Am not"], checkableItems: []),
+                     SurveyQuestion(question: "Going to:", answer:"", options:[], checkableItems:[])
         ]
         
     }
