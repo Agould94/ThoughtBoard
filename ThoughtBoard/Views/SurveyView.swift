@@ -24,12 +24,18 @@ struct SurveyView: View {
                         .font(.headline)
                         .fontWeight(.heavy)
                     
-                    if question.options.isEmpty{
+                    if question.options.isEmpty && question.checkableItems.isEmpty{
                         TextField(viewModel.questions[index].question, text:$viewModel.questions[index].answer)
                             .textFieldStyle(RoundedBorderTextFieldStyle())
                             .multilineTextAlignment(.center)
                             .padding()
-                    }else{
+                    }else if !question.checkableItems.isEmpty{
+                        ForEach($viewModel.questions[index].checkableItems){$item in
+                            CheckableItemView(title:item.title, isSelected: $item.isChecked)
+                            }
+                        .padding(.vertical, 4)
+                        }
+                    else{
                         Picker(question.question, selection: $viewModel.questions[index].answer){
                             ForEach(question.options, id:\.self){option in
                                 Text(option).tag(option)

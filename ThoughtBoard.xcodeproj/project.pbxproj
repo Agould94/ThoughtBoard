@@ -17,6 +17,7 @@
 		550580D72B44E9D400B68DA7 /* SurveyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550580D62B44E9D400B68DA7 /* SurveyView.swift */; };
 		550580DB2B46870300B68DA7 /* SurveyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550580DA2B46870300B68DA7 /* SurveyViewModel.swift */; };
 		550580DE2B46899500B68DA7 /* SurveyQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550580DD2B46899500B68DA7 /* SurveyQuestion.swift */; };
+		55CCC54C2B67790B00E01D20 /* CheckableItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CCC54B2B67790B00E01D20 /* CheckableItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		550580D62B44E9D400B68DA7 /* SurveyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyView.swift; sourceTree = "<group>"; };
 		550580DA2B46870300B68DA7 /* SurveyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyViewModel.swift; sourceTree = "<group>"; };
 		550580DD2B46899500B68DA7 /* SurveyQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyQuestion.swift; sourceTree = "<group>"; };
+		55CCC54B2B67790B00E01D20 /* CheckableItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckableItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +160,7 @@
 			children = (
 				550580D62B44E9D400B68DA7 /* SurveyView.swift */,
 				550580AD2B44E3B000B68DA7 /* ContentView.swift */,
+				55CCC54B2B67790B00E01D20 /* CheckableItemView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -296,6 +299,7 @@
 				550580AC2B44E3B000B68DA7 /* ThoughtBoardApp.swift in Sources */,
 				550580DE2B46899500B68DA7 /* SurveyQuestion.swift in Sources */,
 				550580DB2B46870300B68DA7 /* SurveyViewModel.swift in Sources */,
+				55CCC54C2B67790B00E01D20 /* CheckableItemView.swift in Sources */,
 				550580D72B44E9D400B68DA7 /* SurveyView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
